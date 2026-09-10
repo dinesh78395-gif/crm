@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduFlow — EduTech CRM & Training Management System</title>
+    <!-- Fonts matching Stitch -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300..900;1,300..900&family=Manrope:wght@200..800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              navy: {
+                950: '#060B17',
+                900: '#0B1329',
+                850: '#0F1A36',
+                800: '#152449',
+                700: '#1E356A',
+              },
+              brand: {
+                50: '#eff6ff',
+                100: '#dbeafe',
+                200: '#bfdbfe',
+                500: '#3b82f6',
+                600: '#2563eb',
+                700: '#1d4ed8',
+                800: '#1e40af',
+              },
+              "tertiary-fixed": "#dbe1ff",
+              "secondary-container": "#708cfd",
+              "on-tertiary-fixed": "#00174b",
+              "tertiary": "#000000",
+              "outline": "#76777d",
+              "secondary-fixed": "#dde1ff",
+              "on-secondary-fixed": "#001453",
+              "background": "#f8f9ff",
+              "primary-fixed-dim": "#bec6e0",
+              "surface-container-highest": "#d3e4fe",
+              "secondary": "#3755c3",
+              "error-container": "#ffdad6",
+              "secondary-fixed-dim": "#b8c4ff",
+              "on-primary-fixed-variant": "#3f465c",
+              "surface": "#f8f9ff",
+              "surface-variant": "#d3e4fe",
+              "inverse-surface": "#213145",
+              "primary": "#000000",
+              "on-secondary": "#ffffff",
+              "surface-container-high": "#dce9ff",
+              "on-secondary-fixed-variant": "#173bab",
+              "surface-bright": "#f8f9ff",
+              "on-primary-fixed": "#131b2e",
+              "surface-container-lowest": "#ffffff",
+              "on-secondary-container": "#00217a",
+              "on-tertiary-fixed-variant": "#003ea8",
+              "on-surface-variant": "#45464d",
+              "on-error": "#ffffff",
+              "on-background": "#0b1c30",
+              "on-primary-container": "#7c839b",
+              "surface-container-low": "#eff4ff",
+              "outline-variant": "#c6c6cd",
+              "surface-tint": "#565e74",
+              "surface-dim": "#cbdbf5",
+              "tertiary-fixed-dim": "#b4c5ff",
+              "inverse-primary": "#bec6e0",
+              "on-primary": "#ffffff",
+              "on-tertiary": "#ffffff",
+              "primary-fixed": "#dae2fd",
+              "on-surface": "#0b1c30",
+              "tertiary-container": "#00174b",
+              "on-tertiary-container": "#497cff",
+              "primary-container": "#131b2e",
+              "on-error-container": "#93000a",
+              "error": "#ba1a1a",
+              "inverse-on-surface": "#eaf1ff",
+              "surface-container": "#e5eeff"
+            },
+            fontFamily: {
+              sans: ['Manrope', 'Hanken Grotesk', '-apple-system', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace']
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#f8f9ff] font-sans antialiased text-[#0b1c30] selection:bg-blue-100 selection:text-blue-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
