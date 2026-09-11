@@ -154,7 +154,7 @@ class TrainerOut(TrainerCreate):
 class BatchCreate(BaseModel):
     program_id: int
     customer_id: int
-    trainer_id: int
+    trainer_id: Optional[int] = None
     start_date: date
     end_date: Optional[date] = None
 
@@ -163,9 +163,9 @@ class BatchOut(BaseModel):
     batch_code: str
     program_id: int
     customer_id: int
-    trainer_id: int
+    trainer_id: Optional[int] = None
     start_date: date
-    end_date: Optional[date]
+    end_date: Optional[date] = None
     total_enrolled: int
     status: str
     program_title: Optional[str] = None
